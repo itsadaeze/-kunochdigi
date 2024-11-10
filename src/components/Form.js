@@ -4,18 +4,14 @@ import { useFormContext } from "../context/FormContext";
 const Form = () => {
   const { formState, setFieldValue, setFieldError } = useFormContext();
 
-  // This useEffect runs only once when the component mounts
   useEffect(() => {
-    // You can clear the errors only once here if needed
     setFieldError("name", "");
     setFieldError("email", "");
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);  // Empty dependency array ensures this runs only once after mount
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Only set errors when necessary
     if (!formState.name) {
       setFieldError("name", "Name is required");
     }
@@ -23,7 +19,6 @@ const Form = () => {
       setFieldError("email", "Email is required");
     }
 
-    // If everything is good, submit form data
     if (formState.name && formState.email) {
       console.log("Form Submitted!", formState);
     }
@@ -31,6 +26,7 @@ const Form = () => {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4 max-w-md mx-auto p-6 border rounded-lg shadow-lg">
+      <h1 className="text-3xl font-bold text-gray-800 mb-6">Form Section</h1>
       <div>
         <label className="block font-semibold">Name:</label>
         <input
