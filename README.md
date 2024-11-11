@@ -19,6 +19,7 @@ Create a dashboard component that fetches and displays API data in a filterable 
  + [Javascript](https://www.javascriptlang.org/) 
  + [createContext](https://react.dev/reference/react/createContext/)
  + [Github Actions](https://docs.github.com/en/actions/)
+ + [API](https://jsonplaceholder.typicode.com/users)
 
 
 # How to Test run
