@@ -41,7 +41,7 @@ const Table = () => {
   if (loading) return <div className="text-center text-xl font-semibold">Loading...</div>;
 
   return (
-    <div className="p-6">
+    <div className="w-full">
       <h1 className="text-3xl font-bold text-gray-800 mb-6">Table</h1>
       <TableDetails columns={columns} data={data} />
     </div>

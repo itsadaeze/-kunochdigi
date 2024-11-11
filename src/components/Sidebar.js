@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
-    <div className="w-64 bg-gray-200 h-full p-4">
-      <ul className="space-y-4">
-        <li><Link to="/" className="block p-2 text-gray-800">Home</Link></li>
-        <li><Link to="/table" className="block p-2 text-gray-800">Table</Link></li>
-        <li><Link to="/form" className="block p-2 text-gray-800">Form</Link></li>
+    <div className="w-1/4 xl:w-1/6 bg-gray-200 flex-shrink-0 h-[50vh] mt-10 hidden md:flex">
+      <ul className=" w-full">
+        <li className='bg-blue-500 w-full border-b-2 border-white hover:bg-blue-900 '><Link to="/" className="block p-2 font-bold text-[24px] text-gray-800 hover:text-white hover:text-[20px]">Home</Link></li>
+        <li className='bg-blue-500 w-full border-b-2 border-white hover:bg-blue-900 '><Link to="/table" className="block p-2 font-bold text-[24px] text-gray-800 hover:text-white hover:text-[20px]">Table</Link></li>
+        <li className='bg-blue-500 w-full border-b-2 border-white hover:bg-blue-900 '><Link to="/form" className="block p-2 font-bold text-[24px] text-gray-800 hover:text-white hover:text-[20px]">Form</Link></li>
       </ul>
     </div>
   );

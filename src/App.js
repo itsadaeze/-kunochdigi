@@ -12,11 +12,13 @@ function App() {
   return (
     <FormProvider>
       <Router>
-        <div className="App">
-          <Navbar /> 
-          <div className="flex">
-            <Sidebar /> 
-            <div className="flex-1 p-6">
+        <div className="min-h-screen flex flex-col">
+          <Navbar />
+          <div className="flex flex-1">
+           
+            <Sidebar />
+            
+            <div className="flex-1 overflow-auto p-4 md:p-10">
               <Routes>
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/table" element={<Table />} />
@@ -24,7 +26,7 @@ function App() {
               </Routes>
             </div>
           </div>
-          <Footer /> 
+          <Footer />
         </div>
       </Router>
     </FormProvider>

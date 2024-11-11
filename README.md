@@ -1,70 +1,62 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+<h1>Kunochdigi Task</h1>
+<h6><i> 1. Create a dashboard component that fetches and displays API data in a filterable and sortable table.
+2. Design a form with React Context for form state and validation.</i></h6>
+<hr />
+</div>
 
-## Available Scripts
 
-In the project directory, you can run:
+# Prototype
+![Minion](public/project.png)
 
-### `npm start`
+# Technologies 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ + [ReactJs](https://react.dev/learn/installation)
+ + [TailwindCss](https://tailwindcss.com/) 
+ + [Javascript](https://www.javascriptlang.org/) 
+ + [Github Actions](https://docs.github.com/en/actions/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# How to Test run
+1. Test the Form:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Name: Leave it empty → "Name is required".
+    Email: Leave it empty → "Email is required".
+    Invalid Email: Use an incorrect email like user@domain → "Please enter a valid email address".
+    Uncommon Domain: Use a non-common email domain (e.g., user@weird.com) → "The email domain is suspicious or uncommon".
+    Valid Email: Use a valid email like user@gmail.com → The form will submit, and a success modal will appear.
 
-### `npm run build`
+2. Test the Table:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    The table displays data with sortable columns for Name and Email.
+    Use the Search input at the top to search by name or email. The table will filter results based on the search term.
+    Try searching by a full or partial name or email (e.g., john, gmail, doe).
+    Click on the column headers to sort the data in ascending or descending order. Sorting will toggle between ascending and descending by clicking the header.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ 
+# How to Contribute
 
-### `npm run eject`
+1. Clone the repository
+ `git clone https://github.com/itsadaeze/-kunochdigi.git`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Change directory into the `cloned folder ` and run the setup script 
+ `cd  -kunochdigi`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Open your terminal and type this command `npm install ` to add the react dependency to the app in the development mode.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. After the Successful installation of the  dependency type/copy this command  `npm start` to run the app in your local environment 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Copy this link  [http://localhost:3000/](http://localhost:3000/) and paste it to your web browser(Chrome, safari, mozilla firefox et.c) to view it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Deployment
+Vercel was used to deploy the app. 
+ + [Vercel](https://kunochdigi.vercel.app)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# License
+The MIT License - Copyright (c) 2024 - Present, itsadaeze 
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Author
+Ugwu Adaeze (Software Developer)
