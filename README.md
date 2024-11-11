@@ -1,8 +1,10 @@
 
 <div align="center">
 <h1>Kunochdigi Task</h1>
-<h6><i> 1. Create a dashboard component that fetches and displays API data in a filterable and sortable table.
-2. Design a form with React Context for form state and validation.</i></h6>
+<h6><i> 
+Create a dashboard component that fetches and displays API data in a filterable and sortable table.
+
+ Design a form with React Context for form state and validation.</i></h6>
 <hr />
 </div>
 
@@ -20,21 +22,23 @@
 
 
 # How to Test run
-1. Test the Form:
+ <h1>How to Test the Form</h1>
 
     <bold>Used React Context for form state and validation</bold>
-    Name: Leave it empty → "Name is required".
-    Email: Leave it empty → "Email is required".
-    Invalid Email: Use an incorrect email like user@domain → "Please enter a valid email address".
-    Uncommon Domain: Use a non-common email domain (e.g., user@weird.com) → "The email domain is suspicious or uncommon".
-    Valid Email: Use a valid email like user@gmail.com → The form will submit, and a success modal will appear.
 
-2. Test the Table:
+   1.  Name: Leave it empty → "Name is required".
 
-    The table displays data with sortable columns for Name and Email.
-    Use the Search input at the top to search by name or email. The table will filter results based on the search term.
-    Try searching by a full or partial name or email (e.g., john, gmail, doe).
-    Click on the column headers to sort the data in ascending or descending order. Sorting will toggle between ascending and descending by clicking the header.
+   2.  Email: Leave it empty → "Email is required".
+   3.  Invalid Email: Use an incorrect email like user@domain → "Please enter a valid email address".
+   4.  Uncommon Domain: Use a non-common email domain (e.g., user@weird.com) → "The email domain is suspicious or uncommon".
+   5.  Valid Email: Use a valid email like user@gmail.com → The form will submit, and a success modal will appear.
+
+ <h1>How to text the Table</h1>
+
+   1.  The table displays data with sortable columns for Name and Email.
+  2.   Use the Search input at the top to search by name or email. The table will filter results based on the search term.
+  3.   Try searching by a full or partial name or email (e.g., john, gmail, doe).
+  4.   Click on the column headers to sort the data in ascending or descending order. Sorting will toggle between ascending and descending by clicking the header.
 
 
  
