@@ -15,12 +15,13 @@
  + [ReactJs](https://react.dev/learn/installation)
  + [TailwindCss](https://tailwindcss.com/) 
  + [Javascript](https://www.javascriptlang.org/) 
+ + [createContext](https://react.dev/reference/react/createContext/)
  + [Github Actions](https://docs.github.com/en/actions/)
 
 
 # How to Test run
 1. Test the Form:
-
+    <bold>Used React Context for form state and validation</bold>
     Name: Leave it empty → "Name is required".
     Email: Leave it empty → "Email is required".
     Invalid Email: Use an incorrect email like user@domain → "Please enter a valid email address".
