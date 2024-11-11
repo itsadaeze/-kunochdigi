@@ -22,7 +22,7 @@ Create a dashboard component that fetches and displays API data in a filterable 
 
 
 # How to Test run
- <h1>How to Test the Form</h1>
+ <h3>How to Test the Form</h3>
 
     <bold>Used React Context for form state and validation</bold>
 
@@ -33,7 +33,7 @@ Create a dashboard component that fetches and displays API data in a filterable 
    4.  Uncommon Domain: Use a non-common email domain (e.g., user@weird.com) → "The email domain is suspicious or uncommon".
    5.  Valid Email: Use a valid email like user@gmail.com → The form will submit, and a success modal will appear.
 
- <h1>How to text the Table</h1>
+ <h3>How to text the Table</h3>
 
    1.  The table displays data with sortable columns for Name and Email.
   2.   Use the Search input at the top to search by name or email. The table will filter results based on the search term.
