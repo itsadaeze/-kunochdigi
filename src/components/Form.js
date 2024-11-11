@@ -34,7 +34,7 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Reset previous errors
+
     setFieldError("name", "");
     setFieldError("email", "");
 
@@ -63,7 +63,7 @@ const Form = () => {
       // Form is valid, submit the form
       console.log("Form Submitted!", formState);
 
-      // Show modal after successful submission
+    
       setShowModal(true);
 
       // Reset the form state manually

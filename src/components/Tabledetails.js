@@ -91,7 +91,7 @@ const TableDetails = ({ columns, data }) => {
               {headerGroup.headers.map((column) => (
                 <th
                   {...column.getHeaderProps(column.getSortByToggleProps())}
-                  className="px-4 py-2 text-left font-semibold text-gray-700 cursor-pointer"
+                  className="px-4 py-2 text-[12px] md:text-[15px] text-left font-semibold text-gray-700 cursor-pointer"
                 >
                   {column.render("Header")}
                   <span>
